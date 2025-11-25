@@ -1,18 +1,110 @@
-# React + Vite
+🎬 Movie Database App | React.js + OMDB API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly movie search application built using React.js, Vite, Axios, and the OMDB API.
+Users can search for movies and view full details (poster, title, year, rating, plot) in a popup modal.
 
-Currently, two official plugins are available:
+This project was created as part of my learning journey while exploring React.js and understanding the fundamentals of state management and API handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Live Demo
 
-## React Compiler
+🔗 https://moviedbms.netlify.app/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+📦 Features
 
-Note: This will impact Vite dev & build performances.
+🔍 Search any movie using the OMDB API
 
-## Expanding the ESLint configuration
+🎭 Display movie results with posters & titles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📄 Popup modal showing full movie details
+
+⚛️ Built with React functional components
+
+📡 API requests handled using Axios
+
+🎨 Clean beginner-friendly UI
+
+🛠️ Tech Stack
+
+React.js (Vite)
+
+Axios
+
+OMDB API
+
+CSS
+
+Netlify (Hosting)
+
+📁 Project Structure
+src/
+│── components/
+│     ├── Search.jsx
+│     ├── Results.jsx
+│     ├── Result.jsx
+│     └── Popup.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+⚙️ Installation & Local Setup
+1️⃣ Clone the repository
+git clone https://github.com/AshenRandira/my_first-movie-databse_app.git
+
+2️⃣ Go into the project folder
+cd my_first-movie-databse_app
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the development server
+npm run dev
+
+
+App will run locally at:
+
+http://localhost:5173/
+
+🌐 API Usage
+
+This app uses the OMDB API.
+
+Get your own API key at:
+https://www.omdbapi.com/apikey.aspx
+
+API used in the project:
+
+const apiurl = "https://www.omdbapi.com/?apikey=YOUR_API_KEY";
+
+🧠 What I Learned
+
+React component structure
+
+Using useState for state management
+
+Fetching data from APIs with Axios
+
+Passing data & functions as props
+
+Conditional rendering (showing/hiding popup)
+
+Deploying React apps using Netlify
+
+🚧 Future Improvements
+
+Improve the UI with modern styling
+
+Add loading indicators
+
+Add error handling (no results, empty search)
+
+Add favorites using localStorage
+
+Pagination for large result lists
+
+📌 Author
+
+Ashen Randira
+GitHub: https://github.com/AshenRandira
+
+Live Demo: https://moviedbms.netlify.app/
